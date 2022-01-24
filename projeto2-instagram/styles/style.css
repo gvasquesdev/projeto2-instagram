@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #262626;
   text-decoration: none;
 }
 
@@ -138,8 +137,12 @@ header input::placeholder {
   white-space: nowrap;
 }
 
+.storiesArrowButton {
+  padding-top: 10px;
+}
+
 .stories .story .storyBg {
-  background-image: url("../assets/stories_background.jpg");
+  background-image: url("../assets/stories/stories_background.jpg");
   background-size: contain;
   display: flex;
   align-items: center;
